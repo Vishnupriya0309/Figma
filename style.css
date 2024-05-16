@@ -2,14 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body,
 html {
   height: 100%;
 }
-.navbar{
+.navbar {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .navbar-brand img {
@@ -20,7 +20,6 @@ html {
 }
 .navbar-nav .nav-link {
   margin-right: 15px;
-
 }
 
 .navbar-nav .nav-link.active {
@@ -106,7 +105,7 @@ html {
   flex-direction: column;
   align-items: center;
   padding: 50px 0;
-  background-color: #f8f9fa; 
+  background-color: #f8f9fa;
 }
 
 .growth-container {
@@ -153,7 +152,7 @@ html {
 .engage-section {
   background-color: #3aac40;
   color: white;
-  padding: 30px;
+  padding: 50px 0;
 }
 .engage-section h2 {
   text-align: center;
@@ -180,6 +179,22 @@ html {
 }
 .card-text {
   font-size: 14px;
+}
+
+/*expert*/
+.experts {
+  background-color: #f8f9fa;
+  color: #bebebe;
+}
+.experts-btn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  background-color: #3aac40;
+  color: #ffffff;
 }
 
 /*feedback*/
@@ -212,18 +227,18 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  
 }
 
 .feedback-text {
   flex: 1;
   padding: 0 20px;
-  text-align:justify ;
+  text-align: justify;
 }
 
 /*contack form*/
 .contact-form {
-  background: url('https://img.freepik.com/free-photo/notebook-near-laptop-table_23-2147772397.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1715040000&semt=ais') no-repeat center center;
+  background: url("https://img.freepik.com/free-photo/notebook-near-laptop-table_23-2147772397.jpg?size=626&ext=jpg&ga=GA1.1.553209589.1715040000&semt=ais")
+    no-repeat center center;
   background-size: cover;
   padding: 50px 0;
   color: white;
@@ -261,9 +276,6 @@ html {
   border-radius: 5px;
 }
 
-
-
-
 /*footer*/
 .footer-container {
   background-color: #ffffff;
@@ -273,5 +285,4 @@ html {
 footer a {
   color: rgb(163, 160, 160);
   text-decoration: none;
-
 }
